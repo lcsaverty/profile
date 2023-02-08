@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+body {
+  font-family: 'Unbounded', cursive;
+  background-color: RGB(220, 221, 225);
+  color: RGB(55, 57, 69);
+  line-height: 32px;
+  font-size: 100%;
+  /* text-align: center; */
+  padding: 25px;
+}
+
+h1, h2, h3{
+  color:#585F7D;
+  font-family: 'Unbounded', cursive;
+  font-size: 120%;
+  min-height: 100%;
+  line-height: 100%;
+}
+
+a {
+  color:RGB(96, 77, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.container{
+  background-color: white;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 800px;
+  margin: 25px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn{
+  background-color:RGB(96, 77, 255);
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  color: white;
+  white-space: nowrap;
+  text-align: justify;
+}
+
+#footer li {
+  display : inline-block;
+  font-size: 24px;
+}
+
+#footer li a {
+  margin: 5px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 80%;
+  }
+}
