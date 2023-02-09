@@ -3,14 +3,18 @@
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* --- Components design --- */
 @import url('css/components/banner.css');
 @import url('css/components/conatiner.css');
 @import url('css/components/footer.css');
 
 /* Utilities */
 body {
-  margin: 0;
   font-family: Open Sans;
+  padding-bottom: 200px;
+  margin: 0;
+  background: #F4F4F4;
 }
 
 h1, h2, h3, h4 {
@@ -21,27 +25,17 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.text-center {
+  text-align: center;
+}
+
+
 /* Custom design below! */
-
-
-
-.container{
-  background-color: white;
-  padding: 25px;
-  margin: 25px auto;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-}
-
-#footer li {
-  background: #2C2B2B;
-  display : inline-block;
-  padding: 30px;
-  width: 30px
-  font-size: 24px;
-  color: #1DDD87;
-}
-
-#footer li a {
-  margin: 5px;
-}
