@@ -12,7 +12,7 @@
 
 /* Utilities */
 body {
-  font-family: Unbounded, cursive;
+  font-family: Unbounded;
   background-color: rgb(220, 221, 225);
   color: rgb(55, 57, 69);
   line-height: 32px;
@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3, h4 {
   color: rgb(88, 95, 125);
-  font-family: Unbounded, cursive;
+  font-family: Unbounded;
   font-size: 120%;
   min-height: 100%;
   line-height: 100%;
@@ -46,3 +46,13 @@ a:hover {
 
 
 /* Custom design below! */
+
+.btn {
+  background-color: rgb(96, 77, 255);
+  color: white;
+  white-space: nowrap;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
