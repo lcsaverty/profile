@@ -1,66 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My landing page</title>
-  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/components/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-  <link rel="stylesheet" href="css/style.css">
+  <title>Lucas Averty - Web Developer</title>
 </head>
 <body>
+  <header>
+    <h1>Lucas Averty - Web Developer</h1>
+    <p>Junior developer</p>
+  </header>
+
   <div class="container">
-
-    <!-- code a Hero / Banner section -->
-    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url();">
-      <div class="container">
-        <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-        <p>Change your life and learn to code at one of our campuses around the world..</p>
-        <a class="btn btn-flat" href="#">Apply now</a>
-      </div>
-    </div>
-
-    <!-- code a "How it works" section -->
-    <div class="card-product">
-      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-      <div class="card-product-infos">
-        <h2>Product name</h2>
-        <p>Product description with <strong>relevant info</strong> only.</p>
-      </div>
-    </div>
+    <section id="introduction">
+      <img class="img-circle" src="your-photo.jpg" alt="Photo of Lucas Averty" title="Lucas Averty" width="150px">
+      <p>I'm a junior web developer currently learning at <a class="btn" href="https://www.lewagon.com" target="_blank">Le Wagon</a> 🚌</p>
+    </section>
 
     <div class="card-product">
-      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-      <div class="card-product-infos">
-        <h2>Product name</h2>
-        <p>Product description with <strong>relevant info</strong> only.</p>
-      </div>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Ruby on Rails</li>
+          <li>Postgre SQL</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="card-product">
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>JS Dojo</h3>
+            <p>This is a 9-days made website project by 3 students at Le Wagon bootcamp using Ruby on Rails.</p>
+          </li>
+          <li>
+            <h3>Airbnb Clone </h3>
+            <p>The project is a React-based Airbnb clone that was developed after a bootcamp at Le Wagon. The purpose of the application is to provide users with a platform to search for and book short-term rentals, similar to the popular website Airbnb.</p>
+          </li>
+          <!-- Add more projects as needed -->
+        </ul>
+      </section>
+    </div>
+
+    <div class="card-product">
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            <h3>Company Name</h3>
+            <p>Position - Description of responsibilities and accomplishments</p>
+          </li>
+          <!-- Add more work experiences as needed -->
+        </ul>
+      </section>
+    </div>
+
+    <div class="card-product">
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>Le Wagon - Bordeaux</h3>
+            <strong><p> Web Development Bootcamp</p></strong>
+            <p>Acquisition of skills in HTML, CSS, JavaScript, Ruby on Rails, PostgreSQL, Git & GitHub.</p>
+          </li>
+          <!-- Add more educational details as needed -->
+        </ul>
+      </section>
     </div>
 
 
     <div class="card-product">
-      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-      <div class="card-product-infos">
-        <h2>Product name</h2>
-        <p>Product description with <strong>relevant info</strong> only.</p>
-      </div>
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>cinema 🎥</li>
+          <li>football ⚽</li>
+          <li>rugby 🏉</li>
+        </ul>
+      </section>
     </div>
 
-    <!-- code a footer -->
-    <div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        This footer is made with <i class="fas fa-heart"></i> at Le Wagon
-      </div>
+    <div class="card-product">
+      <section id="passions">
+        <h2>Passions</h2>
+        <ol>
+          <li>Surfing is my religion</li>
+          <li>Music is my "violon d’Ingres"</li>
+          <li>My friends are my inspiration</li>
+        </ol>
+      </section>
     </div>
-
   </div>
+
+  <footer>
+    <h2>Contact</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/lucas-averty/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/lcsaverty" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="mailto:lu.averty@hotmail.fr" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+    </ul>
+  </footer>
 </body>
 </html>
