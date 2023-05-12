@@ -6,19 +6,26 @@
 
 /* --- Components design --- */
 @import url('css/components/banner.css');
-@import url('css/components/ard-product.css');
+@import url('css/components/card-product.css');
+@import url('css/components/container.css');
 @import url('css/components/footer.css');
 
 /* Utilities */
 body {
-  font-family: Open Sans;
-  padding-bottom: 200px;
-  margin: 0;
-  background: #F4F4F4;
+  font-family: Unbounded, cursive;
+  background-color: rgb(220, 221, 225);
+  color: rgb(55, 57, 69);
+  line-height: 32px;
+  font-size: 100%;
+  padding: 25px;
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  color: rgb(88, 95, 125);
+  font-family: Unbounded, cursive;
+  font-size: 120%;
+  min-height: 100%;
+  line-height: 100%;
 }
 
 a {
